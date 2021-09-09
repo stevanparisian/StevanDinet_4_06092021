@@ -477,13 +477,13 @@ h1 {
 
 /* ---- IMAGE BG ---- */
 .banniere__background {
-  background-image: url("../img/banniere1.jpg");
+  background-image: url("/img/banniere1.jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
 
 .presentation__background {
-  background-image: url("../img/banniere2.jpg");
+  background-image: url("/img/banniere2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
 }
