@@ -145,7 +145,7 @@ h1 {
     &__bloc p {
         display: block;
         color: $background-color;
-        font-size: 0.9em;
+        font-size: 1em;
         line-height: 25px;
         width: 90%;
         word-spacing: 0.1em;
@@ -357,6 +357,10 @@ h1 {
     .services__element {
         width: 80%;
         min-width: 365px;
+    }
+
+    .services__element:nth-child(2) {
+        transform: none;
     }
 
     .reseaux {
