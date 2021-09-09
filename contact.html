@@ -7,20 +7,20 @@
   
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./scss/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./scss/css/main.css">
+	<link rel="stylesheet" type="text/css" href="./scss/et-line.css">
 	
     
 	<script src="https://kit.fontawesome.com/347b4bbeba.js" crossorigin="anonymous"></script>
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
 
-    <meta name="title" content="La chouette agence">
-    <meta name="description" content="La chouette agence est une agence web basée à Lyon qui 
+    <meta name="title" content="Agence Webdesign Lyon | La chouette agence">
+    <meta name="description" content="La chouette agence est une agence de webdesign basée à Lyon qui 
 	accompagne les entreprises de toutes tailles dans la création de leur site internet.">
 
 	<title>La chouette agence</title>
@@ -35,7 +35,7 @@
 
 	<header class="header-container">
 		<div class="header-container__logo">
-			<img src="./img/la-chouette-agence.png" alt="Logo, la chouette agence">
+			<img class="header-container__img" src="./img/la-chouette-agence.png" alt="Logo, la chouette agence">
 		</div>
 
 		<nav>
@@ -43,8 +43,9 @@
 		</nav>
 	</header>
 
+	<main>
+
 <!-- BANNIERE -->
-<main>
 
 	<section class="contact-banniere">
 		<h1>Parlons web design !</h1>
@@ -63,9 +64,9 @@
 
 <!-- FORMULAIRE -->
 
-<div id="formulaire">
+<div class="formulaire">
 
-	<div class="ormulaire__elements">
+	<div class="formulaire__elements">
 		<form id="form_1" novalidate>
 			<div class="form-group">
 				<label for="name">
@@ -91,7 +92,7 @@
 				</label>
 				<textarea id="message" class="form-control" placeholder="écrivez juste ici..." required></textarea>
 			</div> 
-			<button class="btn" type="submit">
+			<button class="button" type="submit">
 				Envoyer
 			</button>
 		</form>
@@ -113,29 +114,33 @@
 </main>
 <!-- FOOTER -->
 
-<h3>La chouette agence - Agence de web design basée à Lyon.</h3>
+<footer>
 
-		<div class="reseaux">
-			<div class="reseaux_icons">
-				<i class="fab fa-twitter"></i>
-				<h4>Twitter</h4>
-			</div>
+	<h3>La chouette agence - Agence de web design basée à Lyon.</h3>
 
-			<div class="reseaux_icons">
-				<i class="fab fa-facebook-f"></i>
-				<h4>Facebook</h4>
-			</div>
-
-			<div class="reseaux_icons">
-				<i class="fab fa-dribbble"></i>
-				<h4>Dribble</h4>
-			</div>
-			
-			<div class="reseaux_icons">
-				<i class="fab fa-instagram"></i>
-				<h4>Instagram</h4>
-			</div>
+	<div class="reseaux">
+		<div class="reseaux__icons">
+			<i class="fab fa-twitter"></i>
+			<h4>Twitter</h4>
 		</div>
+
+		<div class="reseaux__icons">
+			<i class="fab fa-facebook-f"></i>
+			<h4>Facebook</h4>
+		</div>
+
+		<div class="reseaux__icons">
+			<i class="fab fa-dribbble"></i>
+			<h4>Dribble</h4>
+		</div>
+		
+		<div class="reseaux__icons">
+			<i class="fab fa-instagram"></i>
+			<h4>Instagram</h4>
+		</div>
+	</div>
+
+</footer>
 
 </body>
 </html>

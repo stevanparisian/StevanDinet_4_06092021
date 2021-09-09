@@ -1,0 +1,24 @@
+.button {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    font-weight: 600;
+    height: 55px;
+    width: 175px;
+    background-color: $primary-color;
+    box-shadow: $box-shadow;
+    
+    &:hover {
+        transform: scale(1.05);
+        background-color: $primary-color;
+        box-shadow: $box-shadow;
+    }
+}
+
+
