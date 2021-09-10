@@ -51,6 +51,7 @@ header {
 }
 .header-container__img {
   height: 60px;
+  width: 100%;
 }
 
 nav {
@@ -446,6 +447,7 @@ h1 {
 }
 .services__icon {
   width: 100px;
+  height: 100px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;

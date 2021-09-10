@@ -1,141 +1,127 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-	<link rel="stylesheet" type="text/css" href="./scss/css/main.css">
-	<script src="https://kit.fontawesome.com/347b4bbeba.js" crossorigin="anonymous"></script>
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="./scss/css/main.css" />
+    <script src="https://kit.fontawesome.com/347b4bbeba.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery-2.1.0.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/blocs.js"></script>
+    <script src="./js/jquery.touchSwipe.js" defer></script>
+    <script src="./js/gmaps.js"></script>
+    <meta name="title" content="Agence Webdesign Lyon | La chouette agence" />
+    <meta name="description" content="La chouette agence est une agence de webdesign 
+	basée à Lyon qui accompagne les entreprises de toutes tailles dans la création
+    de leur site internet."/>
+    <title>La chouette agence</title>
+    <!-- Analytics -->
+    <!-- Analytics END -->
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header-container">
+      <div class="header-container__logo">
+        <img class="header-container__img" src="./img/la-chouette-agence.png" alt="Logo, la chouette agence"/>
+      </div>
+      <nav>
+        <a href="index.html">Accueil</a>
+      </nav>
+    </header>
+    <main>
+      <!-- BANNIERE -->
+      <section class="contact-banniere">
+        <h1>Parlons web design !</h1>
+        <p>
+          Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br />
+          Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+        </p>
+        <div class="chevron">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </section>
+      <!-- FORMULAIRE -->
+      <div class="formulaire">
+        <div class="formulaire__elements">
+          <form id="form_1" novalidate>
+            <div class="form-group">
+              <label for="name"> Nom </label>
+              <input
+                id="name"
+                class="form-control"
+                placeholder="dupont"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email"> Adresse email </label>
+              <input
+                id="email"
+                class="form-control"
+                placeholder="dupont@gmail.com"
+                type="email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="input_504"> Comment nous avez-vous connu ? </label>
+              <input
+                id="input_504"
+                class="form-control"
+                placeholder="internet, bouche à oreille, etc."
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">
+                Brief de votre projet (Ajoutez autant de détails que
+                nécessaire)<br />
+              </label>
+              <textarea
+                id="message"
+                class="form-control"
+                placeholder="écrivez juste ici..."
+                required
+              ></textarea>
+            </div>
+            <button class="button" type="submit">Envoyer</button>
+          </form>
+        </div>
 
-    <meta name="title" content="Agence Webdesign Lyon | La chouette agence">
-    <meta name="description" content="La chouette agence est une agence de webdesign basée à Lyon qui 
-	accompagne les entreprises de toutes tailles dans la création de leur site internet.">
+        <div class="informations">
+          <p>Mail : contact@lachouetteagence.com</p>
+          <p>Adresse : 2 place Sathonay, 69001, Lyon</p>
+          <p>Ouvert de 9h à 18h, du lundi au vendredi</p>
+        </div>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <h3>La chouette agence - Agence de web design basée à Lyon.</h3>
 
-	<title>La chouette agence</title>
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
-    
-</head>
-<body>
-<!-- HEADER -->
+      <div class="reseaux">
+        <div class="reseaux__icons">
+          <i class="fab fa-twitter"></i>
+          <h4>Twitter</h4>
+        </div>
 
-	<header class="header-container">
-		<div class="header-container__logo">
-			<img class="header-container__img" src="./img/la-chouette-agence.png" alt="Logo, la chouette agence">
-		</div>
+        <div class="reseaux__icons">
+          <i class="fab fa-facebook-f"></i>
+          <h4>Facebook</h4>
+        </div>
 
-		<nav>
-			<a href="index.html">Accueil</a>
-		</nav>
-	</header>
+        <div class="reseaux__icons">
+          <i class="fab fa-dribbble"></i>
+          <h4>Dribble</h4>
+        </div>
 
-	<main>
-
-<!-- BANNIERE -->
-
-	<section class="contact-banniere">
-		<h1>Parlons web design !</h1>
-
-		<p>
-			Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-			Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-		</p>
-
-		<div class="chevron">
-			<i class="fas fa-chevron-down"></i>
-		</div>
-
-	</section>
-
-
-<!-- FORMULAIRE -->
-
-<div class="formulaire">
-
-	<div class="formulaire__elements">
-		<form id="form_1" novalidate>
-			<div class="form-group">
-				<label for="name">
-					Nom
-				</label>
-				<input id="name" class="form-control" placeholder="dupont" required />
-			</div>
-			<div class="form-group">
-				<label for="email">
-					Adresse email
-				</label>
-				<input id="email" class="form-control" placeholder="dupont@gmail.com" type="email" required />
-			</div>
-			<div class="form-group">
-				<label for="input_504">
-					Comment nous avez-vous connu ?
-				</label>
-				<input id="input_504" class="form-control" placeholder="internet, bouche à oreille, etc." required />
-			</div>
-			<div class="form-group">
-				<label for="message">
-					Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-				</label>
-				<textarea id="message" class="form-control" placeholder="écrivez juste ici..." required></textarea>
-			</div> 
-			<button class="button" type="submit">
-				Envoyer
-			</button>
-		</form>
-	</div>
-
-	<div class="informations">
-
-		<p>Mail : contact@lachouetteagence.com</p>
-
-		<p>Adresse : 2 place Sathonay, 69001, Lyon</p>
-
-		<p>Ouvert de 9h à 18h, du lundi au vendredi</p>
-
-	</div>
-	
-</div>
-
-
-</main>
-<!-- FOOTER -->
-
-<footer>
-
-	<h3>La chouette agence - Agence de web design basée à Lyon.</h3>
-
-	<div class="reseaux">
-		<div class="reseaux__icons">
-			<i class="fab fa-twitter"></i>
-			<h4>Twitter</h4>
-		</div>
-
-		<div class="reseaux__icons">
-			<i class="fab fa-facebook-f"></i>
-			<h4>Facebook</h4>
-		</div>
-
-		<div class="reseaux__icons">
-			<i class="fab fa-dribbble"></i>
-			<h4>Dribble</h4>
-		</div>
-		
-		<div class="reseaux__icons">
-			<i class="fab fa-instagram"></i>
-			<h4>Instagram</h4>
-		</div>
-	</div>
-
-</footer>
-
-</body>
+        <div class="reseaux__icons">
+          <i class="fab fa-instagram"></i>
+          <h4>Instagram</h4>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
