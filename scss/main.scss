@@ -276,6 +276,7 @@ h1 {
        color: black;
        text-shadow: none;
        font-weight: 600;
+       font-size: 2em;
     }
     
     p {
@@ -328,6 +329,7 @@ h1 {
 
 .informations p {
     margin-bottom: 10px;
+    font-size: 0.8em;
 }
 
 @media screen and (max-width: 775px) {
