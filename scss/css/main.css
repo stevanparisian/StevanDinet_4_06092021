@@ -584,13 +584,13 @@ h1 {
 
 /* ---- IMAGE BG ---- */
 .banniere__background {
-  background-image: url("../../img/banniere1.webp");
+  background-image: url("img/banniere1.webp");
   background-position: top center;
   background-repeat: no-repeat;
 }
 
 .presentation__background {
-  background-image: url("../../img/banniere2.webp");
+  background-image: url("img/banniere2.webp");
   background-position: center center;
   background-repeat: no-repeat;
 }
