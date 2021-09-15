@@ -394,6 +394,8 @@ label {
   align-items: center;
 }
 .banniere__elements img {
+  height: 150px;
+  width: 150px;
   filter: drop-shadow(0 0 1.5rem rgba(255, 255, 255, 0.6));
 }
 
