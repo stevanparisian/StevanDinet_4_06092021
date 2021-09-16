@@ -82,7 +82,7 @@ footer {
 
 footer h3 {
   text-align: center;
-  margin: 0 auto;
+  margin: 0 5px 0 5px;
   font-size: 1em;
   font-weight: 400;
   display: flex;
@@ -105,6 +105,10 @@ footer h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.reseaux img {
+  height: 35px;
+  width: 35px;
 }
 .reseaux i {
   color: rgba(0, 0, 0, 0.8);
@@ -584,13 +588,13 @@ h1 {
 
 /* ---- IMAGE BG ---- */
 .banniere__background {
-  background-image: url("../../img/banniere1.webp");
+  background-image: url("../../img/banniere1.jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
 
 .presentation__background {
-  background-image: url("../../img/banniere2.webp");
+  background-image: url("../../img/banniere2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
 }
